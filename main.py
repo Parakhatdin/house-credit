@@ -15,7 +15,7 @@ def main(max_can_pay_month, house_price):
     print(f'your first deposit: {first_deposit}')
 
     for_ipoteka_bank_every_month = bank_credit(bank_will_pay, 18, 240)
-    for_tbc_bank_every_month = bank_credit(first_deposit - 50_000_000, 28, 36)
+    for_tbc_bank_every_month = bank_credit(first_deposit - 40_000_000, 28, 36)
 
     every_month_pay = for_ipoteka_bank_every_month + for_tbc_bank_every_month
 
